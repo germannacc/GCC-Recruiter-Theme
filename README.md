@@ -20,7 +20,14 @@ npm install
 # 4 Get started
 gulp serve - starts localhost server with browser-sync, watches HTML, Sass, JS with hot reloading
 gulp - minify CSS/JS and builds your app into the dist directory, ready for production
+
 ```
+## Not working?
+Must use node Version 8
+Use Node Version Manager to switch versions
+
+nvm use 8
+. 
 
 ## Requirements
 This project requires you have [nodejs](https://nodejs.org/en/) with [npm](https://www.npmjs.com/get-npm) installed.
