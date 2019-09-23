@@ -9,7 +9,7 @@ A [Bootstrap](https://getbootstrap.com/) v4.3.1 boiler plate with [Sass](http://
 ## Quick Start
 ```
 # 1 Clone this repo
-git clone https://github.com/wapbamboogie/bootstrap-4-boilerplate.git
+git clone https://github.com/germannacc/GCC-Recruiter-Theme.git
 
 # 2 Navigate into the repo directory
 cd bootstrap-4-boilerplate
