@@ -1,0 +1,74 @@
+#mainNav {
+  min-height: 100px;
+  background-color: $primary;
+  .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: $primary;
+    border: 1px solid $primary;
+    &:focus {
+      outline: none;
+    }
+  }
+  .navbar-brand {
+    color: $black;
+    font-weight: 700;
+    padding: .9rem 0;
+  }
+  .navbar-nav {
+    .nav-item {
+      &:hover {
+        color: fade(white, 80%);
+        background-color: transparent;
+      }
+      &:active,
+      &:focus {
+        background-color: transparent;
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: $white;
+    transition: background-color 0.3s ease-in-out;
+    .navbar-brand {
+      padding: .5rem 0;
+      color: $primary;
+    }
+    .nav-link {
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: $primary;
+      &:hover {
+        color: $secondary;
+      }
+      &:active {
+        color: $secondary;
+      }
+    }
+    &.navbar-shrink {
+      background-color: $white;
+      .navbar-brand {
+        color: $black;
+      }
+      .nav-link {
+        color: $black;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+        &:hover {
+          color: $primary;
+        }
+        &:active {
+          color: darken($primary, 15%);
+        }
+        &.active {
+          color: $primary;
+          outline: none;
+          border-bottom: 0.25rem solid $primary;
+        }
+      }
+    }
+  }
+}
